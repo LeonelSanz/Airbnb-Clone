@@ -81,7 +81,7 @@ const UserMenu = () => {
                                 label="Login"
                             />
                             <MenuItem
-                                onClick={() => {registerModal.onOpen}}
+                                onClick={registerModal.onOpen}
                                 label="Sign up"
                             />
                         </>
